@@ -219,18 +219,6 @@ body {
     }
 }
 
-@media (max-width:376px) {
-    .container2 h2 {
-        font-size: 4em;
-        margin-top: 10px;
-    }
-    
-    .container2 h3 {
-        font-size: 4em;
-        line-height: 1em;
-        margin-top: -150px;
-    }
-}
 
 @media (max-width:320px) {
     .container2 h2 {
