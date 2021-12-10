@@ -94,3 +94,170 @@ body {
 .contador #segundos:before{
     content: 'Segundos';
 }
+
+@media (max-width:992px) {
+    .container2 {
+        top: 250px;
+        bottom: 50px;
+    }
+}
+
+@media (max-width:850px) {
+    .container2 h2 {
+        text-align: center;
+        font-size: 7em;
+        line-height: 0.1em;
+        color: white;
+        margin-top: 10px;
+    }
+    
+    .container2 h3 {
+        text-align: center;
+        font-size: 7em;
+        line-height: 0.7em;
+        color: white;
+        margin-top: -80px;
+    }
+
+    .contador div{
+        position: relative;
+        width: 80px;
+        height: 80px;
+        line-height: 100px;
+        text-align: center;
+        color: #fff;
+        margin: 0 15px;
+        font-size: 2.5em;
+        font-weight: 500;
+    }
+
+    .container2 {
+        left: 30px;
+        right: 30px;
+    }
+}
+
+@media (max-width:650px) {
+    .contador div{
+        position: relative;
+        font-size: 2.5em;
+    }
+
+    .contador div #dias #horas #minutos #segundos{
+        position: absolute;
+        font-size: 2.5em;
+    }
+    
+    .container2 {
+        top: 250px;
+        left: 30px;
+        right: 30px;
+        bottom: 80px;
+        background-size: 100%;
+    }
+}
+
+@media (max-width:465px) {
+    .container2 h2 {
+        font-size: 5em;
+        margin-top: 10px;
+    }
+    
+    .container2 h3 {
+        font-size: 5em;
+        margin-top: -200px;
+    }
+    
+    .contador #dias{
+        position: absolute;
+        font-size: 2.5em;
+        top: -20px;
+        left: 50px;
+    }
+    .contador #horas{
+        position: absolute;
+        font-size: 2.5em;
+        top: -20px;
+        left: 150px;
+    }
+    .contador #minutos{
+        position: absolute;
+        font-size: 2.5em;
+        top: 60px;
+        left: 50px;
+    }
+    .contador #segundos{
+        position: absolute;
+        font-size: 2.5em;
+        top: 60px;
+        left: 150px;
+    }
+    
+    .contador {
+        position: relative;
+        width: 300px;
+    }
+
+    .contador div #dias #horas #minutos #segundos{
+        position: absolute;
+        font-size: 10em;
+    }
+    
+    .container2 {
+        top: 250px;
+        left: 40px;
+        right: 40px;
+        bottom: 10px;
+        background-size: 100%;
+    }
+}
+
+@media (max-width:376px) {
+    .container2 h2 {
+        font-size: 4em;
+        margin-top: 10px;
+    }
+    
+    .container2 h3 {
+        font-size: 4em;
+        line-height: 1em;
+        margin-top: -150px;
+    }
+}
+
+@media (max-width:320px) {
+    .container2 h2 {
+        font-size: 3em;
+        margin-top: -10px;
+    }
+    
+    .container2 h3 {
+        font-size: 4em;
+        margin-top: -100px;
+    }
+    
+    .contador #dias{
+        position: absolute;
+        font-size: 2em;
+        top: -50px;
+        left: 50px;
+    }
+    .contador #horas{
+        position: absolute;
+        font-size: 2em;
+        top: -50px;
+        left: 150px;
+    }
+    .contador #minutos{
+        position: absolute;
+        font-size: 2em;
+        top: 20px;
+        left: 50px;
+    }
+    .contador #segundos{
+        position: absolute;
+        font-size: 2em;
+        top: 20px;
+        left: 150px;
+    }
+}
