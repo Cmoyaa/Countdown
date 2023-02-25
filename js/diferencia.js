@@ -2,7 +2,6 @@ function newYear() {
     var fechaIngresada = new Date(document.getElementById("fechaIngresada").value).setHours(24);
     var hoy = new Date().getTime();
     falta = fechaIngresada - hoy;
-    console.log(falta)
 
     var segundos = 1000;
     var minutos = segundos * 60;
